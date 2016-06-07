@@ -1,0 +1,31 @@
+{
+  "name": "laravel-elixir-caddysync",
+  "version": "1.0.0",
+  "description": "Laravel  Elixir ingredient - combines caddy and browserSync so it runs a server and then browsersync proxies it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4nd/laravel-elixir-caddysync.git"
+  },
+  "keywords": [
+    "gulp",
+    "laravel",
+    "elixir",
+    "adjuster"
+  ],
+  "author": "Andy Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4nd/laravel-elixir-caddysync/issues"
+  },
+  "dependencies": {
+    "portfinder": "^1.0.3"
+  },
+  "peerDependencies": {
+    "laravel-elixir": "^3.0"
+  },
+  "homepage": "https://github.com/4nd/laravel-elixir-caddysync"
+}
