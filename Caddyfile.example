@@ -3,7 +3,7 @@
 
     errors error.log
 
-    fastcgi / /opt/local/var/run/php56/php5-fpm.sock php {
+    fastcgi / 127.0.0.1:9000 php {
         index index.php
     }
 
