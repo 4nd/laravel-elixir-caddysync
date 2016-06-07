@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-caddysync",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Laravel  Elixir ingredient - combines caddy and browserSync so it runs a server and then browsersync proxies it.",
   "main": "index.js",
   "scripts": {
