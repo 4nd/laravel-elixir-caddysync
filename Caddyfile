@@ -1,0 +1,15 @@
+127.0.0.1 {
+    root public
+
+    errors error.log
+
+    fastcgi / /opt/local/var/run/php56/php5-fpm.sock php {
+        index index.php
+    }
+
+    rewrite {
+        r .*
+        ext /
+        to /index.php?{query}
+    }
+}
