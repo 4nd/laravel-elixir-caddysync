@@ -15,7 +15,7 @@ Elixir.extend('caddySync', function() {
     // Browsersync will only run during `gulp watch`.
     if (gutils.env._.indexOf('watch') > -1) {
         portFinder.getPort(function(err, port){
-            if(err) {
+            if(!err) {
                 gulp.src('').pipe(shell(caddyCmd + ' -port ' + port));
                 Elixir.mixins.browserSync({ proxy: '127.0.0.1:'+port});
             } else {
