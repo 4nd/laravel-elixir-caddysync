@@ -66,7 +66,7 @@ Default:
 {
     caddypath: 'caddy',
     basePort: 50000,
-    bindTo: '127.0.0.1',
+    bindTo: '0.0.0.0',
 }
 ```
 

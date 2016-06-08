@@ -11,7 +11,7 @@ Elixir.extend('caddySync', function(options) {
     var _options = _.extend({},{
         caddypath: 'caddy',
         basePort: 50000,
-        bindTo: '127.0.0.1'
+        bindTo: '0.0.0.0'
     },options);
 
     portFinder.basePort = _options.basePort;
