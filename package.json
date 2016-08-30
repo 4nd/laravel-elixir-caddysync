@@ -14,7 +14,10 @@
     "gulp",
     "laravel",
     "elixir",
-    "adjuster"
+    "caddy",
+    "browsersync",
+    "development",
+    "local"
   ],
   "author": "Andy Graham",
   "license": "MIT",
